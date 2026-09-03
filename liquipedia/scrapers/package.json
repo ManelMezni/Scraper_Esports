@@ -1,0 +1,28 @@
+{
+   "type": "module",
+   "dependencies": {
+      "axios": "^1.18.1",
+      "cheerio": "^1.2.0",
+      "express": "^5.2.1",
+      "mongodb": "^7.5.0",
+      "puppeteer": "^25.3.0"
+   },
+   "name": "scraping",
+   "version": "1.0.0",
+   "description": "A collection of scraper + Flask API pairs that pull match/profile data from\r **tracker.gg's internal API** for eight games, store it in **MongoDB**, and\r expose it over simple JSON endpoints.",
+   "main": "scrape.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://gitlab.com/ega-stage/scrapper.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://gitlab.com/ega-stage/scrapper/issues"
+   },
+   "homepage": "https://gitlab.com/ega-stage/scrapper#readme"
+}
